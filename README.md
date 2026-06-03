@@ -1,2 +1,2 @@
 # mckmillinery
-Website for MCK Millinery
+Website for MCK Millinery.
