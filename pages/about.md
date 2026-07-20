@@ -1,33 +1,68 @@
 ---
-title: About us
-metaDescription: This is a sample meta description. If one is not present in your page/post's front matter, the default metadata.description will be used instead.
-date: 2017-01-01T00:00:00.000Z
-permalink: /about/index.html
+layout: layouts/contact.njk
+title: About MCK
+metaDescription: Melanie Koch is a Brooklyn-based Milliner. She maintains a lifelong passion for refined ostentation.
+section: about
+date: 2026=-07017
+permalink: /contact/index.html
 eleventyNavigation:
   key: About
-  order: 1
+  order: 2
 ---
-Leverage agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+# About
 
-Add a few line breaks in here to test:-
-Capitalize  
-on  
-low  
-hanging  
-fruit  
+Melanie Koch is a Brooklyn-based Milliner. She maintains a lifelong passion for refined ostentation. In her debut collection, Saturnine Glamour, she combines dark romantic fashion, nature's beauty and the celestial. Varied in style and technique, the collection is tied together with adornments of Mother of Pearl, a shell known for its transformative, glistening properties.
 
-## Our services
+## Contact
 
-Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+For inquiries about custom hats, collaborations, or purchases, please reach out using the form below:
 
-### Blue-sky thinking
+<style>
+.contact-form {
+	max-width: 600px;
+	margin: 2rem auto;
+	padding: 2rem;
+	border: 1px solid #ddd;
+	border-radius: 8px;
+	background-color: #f9f9f9;
+}
 
-Capitalize on low hanging fruit to identify a ballpark value added activity to beta test. Override the digital divide with additional clickthroughs from DevOps. Nanotechnology immersion along the information highway will close the loop on focusing solely on the bottom line. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+.form-group {
+	margin-bottom: 1.5rem;
+}
 
-#### Management frameworks
+.form-group label {
+	display: block;
+	margin-bottom: 0.5rem;
+	font-weight: bold;
+	color: #333;
+}
 
-Podcasting operational change management inside of workflows to establish a framework. Taking seamless key performance indicators offline to maximise the long tail. Keeping your eye on the ball while performing a deep dive on the start-up mentality to derive convergence on cross-platform integration. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+.form-group input,
+.form-group select,
+.form-group textarea {
+	width: 100%;
+	padding: 0.75rem;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	font-size: 1rem;
+}
 
-##### Regulatory convergence
+.form-group textarea {
+	resize: vertical;
+}
 
-Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI. Organically grow the holistic world view of disruptive innovation via workplace diversity and empowerment.
+.contact-form button {
+	background-color: #333;
+	color: white;
+	padding: 0.75rem 1.5rem;
+	border: none;
+	border-radius: 4px;
+	font-size: 1rem;
+	cursor: pointer;
+}
+
+.contact-form button:hover {
+	background-color: #555;
+}
+</style>
