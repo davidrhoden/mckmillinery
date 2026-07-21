@@ -14,3 +14,5 @@ tags:
 # Pink Lace Cloche
 
 description here.
+
+![Pink Lace Cloche by MCK Millinery.](/static/img/hats/mck-millinery-pink-lace-cloche.webp)
