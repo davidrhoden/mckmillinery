@@ -1,7 +1,7 @@
 :root {
 	--primary: aliceblue;
 	--secondary: white;
-	--background: #1a1220;
+	--background: #1c1525;
 	--lavender: #c9a9e0;
 	--red-purple: #cf6790;
 	--body: aliceblue;
@@ -48,6 +48,15 @@ a[href]:visited {
 a[href]:hover {
 	color: var(--red-purple);
 	text-decoration: none;
+}
+
+a.back-link[href],
+a.back-link[href]:visited {
+	color: var(--primary);
+}
+
+a.back-link[href]:hover {
+	color: var(--lavender);
 }
 
 a.back-link[href]:hover .back-icon {
@@ -173,6 +182,10 @@ header nav li {
 
 header nav li a {
 	padding: .25em .5em;
+}
+
+header nav li a[href],
+header nav li a[href]:visited {
 	color: var(--primary);
 }
 
