@@ -3,4 +3,11 @@ layout: layouts/base.njk
 section: home
 ---
 
-{{ content | safe }}
+<div class="hero">
+  {% for post in collections.post | sort(false, false, 'data.order') %}
+    {% if post.data.image %}
+      <div class="hero-slide" style="background-image: url('{{ post.data.image }}')"></div>
+    {% endif %}
+  {% endfor %}
+  <div class="hero-content">{{ content | safe }}</div>
+</div>
