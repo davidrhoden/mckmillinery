@@ -10,6 +10,4 @@ tags:
 
 ---
 
-![The Coffin Hat by MCK Millinery](/static/img/hats/mck-millinery-the-coffin-hat.jpg)
-
-
+The latest collection: [Saturnine Glamour](/hats/).
