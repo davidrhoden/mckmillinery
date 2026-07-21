@@ -173,10 +173,11 @@ header nav li {
 
 header nav li a {
 	padding: .25em .5em;
+	color: var(--primary);
 }
 
 header nav li a[href]:hover {
-	color: var(--red-purple);
+	color: var(--lavender);
 	text-decoration: none;
 }
 
