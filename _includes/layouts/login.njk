@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MCK Millinery</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400;0,6..96,700;1,6..96,400&family=EB+Garamond:ital,wght@0,400;0,500;1,400&display=swap');
+    *, *:before, *:after { box-sizing: border-box; }
+    body {
+      background: #1a1220;
+      color: #c9a9e0;
+      font-family: "EB Garamond", serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    h1 {
+      font-family: "Bodoni Moda", serif;
+      font-size: 2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.15em;
+      margin: 0 0 1.5em;
+      color: aliceblue;
+    }
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 0.75em;
+      width: 280px;
+    }
+    input[type="password"] {
+      background: transparent;
+      border: 1px solid #c9a9e0;
+      border-radius: 6px;
+      color: aliceblue;
+      font-family: "EB Garamond", serif;
+      font-size: 1rem;
+      padding: 0.75em 1em;
+    }
+    input[type="password"]::placeholder { color: #c9a9e080; }
+    button {
+      background: linear-gradient(to right, #c9a9e0, #cf6790);
+      border: none;
+      border-radius: 6px;
+      color: black;
+      cursor: pointer;
+      font-family: "EB Garamond", serif;
+      font-size: 1rem;
+      padding: 0.75em 1em;
+    }
+    #error {
+      color: #cf6790;
+      display: none;
+      text-align: center;
+    }
+  </style>
+  <script>
+    if (localStorage.getItem('mck_auth')) { window.location.replace('/'); }
+  </script>
+</head>
+<body>
+  <h1>MCK Millinery</h1>
+  <form id="login-form">
+    <input type="password" id="password" placeholder="Password" autofocus>
+    <button type="submit">Enter</button>
+    <p id="error">Incorrect password.</p>
+  </form>
+  <script>
+    document.getElementById('login-form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      if (document.getElementById('password').value === 'millinery') {
+        localStorage.setItem('mck_auth', '1');
+        window.location.replace('/');
+      } else {
+        document.getElementById('error').style.display = 'block';
+      }
+    });
+  </script>
+</body>
+</html>

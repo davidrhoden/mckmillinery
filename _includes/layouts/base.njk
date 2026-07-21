@@ -4,6 +4,7 @@
 	{% include "components/head.njk" %}
 
 	<body>
+		<script>if(!localStorage.getItem('mck_auth')){window.location.replace('/login/');}</script>
 
 		<header>
 			<em>
