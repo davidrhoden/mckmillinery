@@ -14,5 +14,3 @@ tags:
 # Headband
 
 Description here.
-
-![Headband with mother-of-pearl accessories](/static/img/hats/mck-millinery-headband-with-mother-of-pearl.jpg)
