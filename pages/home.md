@@ -1,6 +1,8 @@
 ---
+layout: layouts/home.njk
 title: MCK Millinery
-date: 2026-0605T00:00:00
+date: 2026-06-05T00:00:00
+permalink: /index.html
 excerpt: 
 image: /static/img/hats/mck-millinery-the-coffin-hat.jpg
 tags:
@@ -8,6 +10,6 @@ tags:
 
 ---
 
-![The Coffin Hat by MCK Milinery](/static/img/hats/mck-millinery-the-coffin-hat.jpg)
+![The Coffin Hat by MCK Millinery](/static/img/hats/mck-millinery-the-coffin-hat.jpg)
 
 
