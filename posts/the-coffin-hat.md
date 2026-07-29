@@ -14,7 +14,7 @@ tags:
 
 The Coffin Hat! Trims can be adapted to suit. This luxe edition includes a bell-shaped brim, handmade leather rose, long black veiling with luster and signature mother of pearl shells. $750.
 
-A basic edition with a shorter brim and heavier felt can made for a more masculine look. $400.
+A basic edition with a shorter brim and heavier felt can be made for a more masculine look. $400.
 
 ![detail of The Coffin Hat by MCK Millinery](/static/img/hats/mck-millinery-coffin-hat-closeup.jpg)
 
