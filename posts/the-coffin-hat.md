@@ -1,6 +1,7 @@
 ---
-title: The Coffin Hat
-description: A stunning hat featuring mother-of-pearl adornments.
+title: The Coffin Hat || MCK Millinery
+metaDescription: A stunning hat featuring mother-of-pearl adornments.
+summary: A stunning hat featuring mother-of-pearl adornments.
 date: 2026-06-05
 image: /static/img/hats/mck-millinery-the-coffin-hat.jpg
 price: $750
@@ -11,6 +12,10 @@ tags:
 
 # The Coffin Hat
 
-The Coffin Hat! Trims can be adapted to suit. This lux edition includes a bell-shaped brim, handmade leather rose, long black veiling with luster and signature mother of pearl shells.
+The Coffin Hat! Trims can be adapted to suit. This luxe edition includes a bell-shaped brim, handmade leather rose, long black veiling with luster and signature mother of pearl shells. $750.
+
+A basic edition with a shorter brim and heavier felt can made for a more masculine look. $400.
 
 ![detail of The Coffin Hat by MCK Millinery](/static/img/hats/mck-millinery-coffin-hat-closeup.jpg)
+
+Photos by [Martyna Szczęsna](https://www.instagram.com/martynaszcz/).
