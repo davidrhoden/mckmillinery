@@ -5,7 +5,7 @@ title: Contact
 date: 2026-07-27T00:00:00
 excerpt: I’d love to consult with you in a one-on-one appointment either in person in New York or New Orleans or over Facetime.
 image: /static/img/hats/mck-millinery-coffin-hat-closeup.jpg
-  eleventyNavigation:
+eleventyNavigation:
   key: Contact MCK
   order: 2
 tags:

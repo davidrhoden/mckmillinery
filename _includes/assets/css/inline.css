@@ -3,6 +3,7 @@
 	--secondary: white;
 	--background: #1c1525;
 	--lavender: #c9a9e0;
+	--dark-lavender: #473a54;
 	--red-purple: #cf6790;
 	--body: #ebe0ff;
 	--font-display: "Bodoni Moda", serif;
@@ -26,6 +27,21 @@ body {
 	height: 100vh;
 	grid-template-rows: auto auto 1fr auto;
 	background-color: var(--background);
+}
+
+.logo-holder {
+	margin-bottom: 1em;
+	margin-right: 1em;
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	width: 150px;
+}
+
+.logo-holder img {
+	display: block;
+	width: 100%;
+	height: auto;
 }
 
 main {
@@ -113,7 +129,6 @@ footer {
 	color: var(--lavender);
 	font-size: 12px;
 	opacity: 1;
-	text-align: right;
 	text-transform: uppercase;
 }
 
@@ -430,4 +445,10 @@ html[data-current="home"] main {
 .hat-card h3 {
 	margin: 0.5em 0 0;
 	font-style: italic;
+}
+
+@media screen and (max-width: 767px) {
+	.logo-holder {
+		width: 100px;
+	}
 }
