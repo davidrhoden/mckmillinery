@@ -380,6 +380,10 @@ html[data-current="home"] main {
 	padding: 0;
 }
 
+html[data-current="home"] footer {
+	display: none;
+}
+
 .hero {
 	position: relative;
 	height: 100vh;
