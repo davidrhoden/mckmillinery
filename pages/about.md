@@ -16,7 +16,7 @@ eleventyNavigation:
 
 <div class="bio">
   <div class="bio-text">
-    <p>Melanie Claire Koch is a Brooklyn-based milliner. She maintains a lifelong passion for refined ostentation. In her debut collection, <a href="/hats">Saturnine Glamour</a>, she combines dark romantic fashion, nature's beauty, and the celestial. Varied in style and technique, the collection is tied together with adornments of Mother of Pearl, a shell known for its transformative, glistening properties.</p>
+    <p>Melanie Claire Koch divides her time between Brooklyn and New Orleans. She maintains a lifelong passion for refined ostentation. In her debut collection, <a href="/hats">Saturnine Glamour</a>, she combines dark romantic fashion, nature's beauty, and the celestial. Varied in style and technique, the collection is tied together with adornments of Mother of Pearl, a shell known for its transformative, glistening properties.</p>
     <p>Read an <a href="/static/pdfs/mck-in-hat-magazine.pdf">article on MCK Millinery</a> from <em>Hat</em> magazine.</p>
   </div>
   <img src="/static/img/site/mck-headshot.jpg" alt="Melanie Claire Koch, of MCK Millinery">
