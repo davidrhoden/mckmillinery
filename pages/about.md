@@ -1,7 +1,7 @@
 ---
 layout: layouts/page.njk
 title: About MCK
-metaDescription: Melanie Koch is a Brooklyn-based Milliner. She maintains a lifelong passion for refined ostentation.
+metaDescription: Melanie Koch is a New Orleans and Brooklyn-based milliner. She maintains a lifelong passion for refined ostentation.
 section: about
 date: 2026-07-17
 permalink: /about/index.html
