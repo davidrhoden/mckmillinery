@@ -7,6 +7,20 @@
   {% set css %}
     {% include "assets/css/inline.css" %}
   {% endset %}
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="{{ metadata.title }}">
+  <meta property="og:title" content="{% if title %}{{ title }}: Hats by MCK Millinery{% else %}{{ metadata.title }}{% endif %}">
+  <meta property="og:description" content="{{ metaDescription or metadata.description }}">
+  <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
+  <meta property="og:image" content="{{ metadata.url }}{{ image or '/static/img/hats/mck-millinery-the-coffin-hat.jpg' }}">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{% if title %}{{ title }}: Hats by MCK Millinery{% else %}{{ metadata.title }}{% endif %}">
+  <meta name="twitter:description" content="{{ metaDescription or metadata.description }}">
+  <meta name="twitter:image" content="{{ metadata.url }}{{ image or '/static/img/hats/mck-millinery-the-coffin-hat.jpg' }}">
+
   <link rel="icon" type="image/svg+xml" href="/static/img/logo.svg">
   <link rel="icon" type="image/png" href="/static/img/logo.png">
   <link rel="apple-touch-icon" href="/static/img/logo.png">
