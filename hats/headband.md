@@ -1,6 +1,6 @@
 ---
 title: Headband
-permalink: posts/headband/index.html
+permalink: hats/headband/index.html
 metaDescription: Pink pearls and found brooches heighten the drama. I can source semi-precious stones, shells and fabric trims for an epic one-of-a-kind piece.
 date: 2026-07-20T00:00:00.000Z
 summary: Pink pearls and found brooches heighten the drama. I can source semi-precious stones, shells and fabric trims for an epic one-of-a-kind piece.

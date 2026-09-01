@@ -1,6 +1,6 @@
 {
   "layout": "layouts/post.njk",
-  "permalink": "posts/{{ title | slug }}/index.html",
+  "permalink": "hats/{{ title | slug }}/index.html",
   "author": "MCK Millinery",
   "tags": [
     "post"

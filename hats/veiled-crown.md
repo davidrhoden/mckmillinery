@@ -1,6 +1,6 @@
 ---
 title: Veiled Crown
-permalink: posts/veiled-crown/index.html
+permalink: hats/veiled-crown/index.html
 metaDescription: A dramatic look for your next ball or renfaire! This leather over buckram wired crown is a statement piece for the royalty that you are.
 date: 2026-07-20T00:00:00.000Z
 summary: A dramatic look for your next ball or renfaire! This leather over buckram wired crown is a statement piece for the royalty that you are.

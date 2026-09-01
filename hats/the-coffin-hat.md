@@ -6,7 +6,7 @@ date: 2026-06-05
 image: /static/img/hats/mck-millinery-the-coffin-hat.jpg
 price: $750
 order: 1
-permalink: posts/the-coffin-hat/index.html
+permalink: hats/the-coffin-hat/index.html
 tags:
   - Saturnine Glamour
 ---
