@@ -2,7 +2,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="{{ eleventy.generator }}">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if title %}{{ title }} | Hats by MCK Millinery{% else %}Hats by MCK Millinery | New York | New Orleans{% endif %}</title>
+  <title>{% if title %}{{ title }} | Hats by MCK Millinery{% else %}Hats by MCK Millinery | New York and New Orleans{% endif %}</title>
   <meta name="description" content="{{ metaDescription or eleventyComputed.metaDescription or metadata.description }}">
   {% set css %}
     {% include "assets/css/inline.css" %}
@@ -10,14 +10,14 @@
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="{{ metadata.title }}">
-  <meta property="og:title" content="{% if title %}{{ title }} | Hats by MCK Millinery{% else %}Hats by MCK Millinery | New York | New Orleans{% endif %}">
+  <meta property="og:title" content="{% if title %}{{ title }} | Hats by MCK Millinery{% else %}Hats by MCK Millinery | New York and New Orleans{% endif %}">
   <meta property="og:description" content="{{ metaDescription or metadata.description }}">
   <meta property="og:url" content="{{ metadata.url }}{{ page.url }}">
   <meta property="og:image" content="{{ metadata.url }}{{ image or '/static/img/hats/mck-millinery-the-coffin-hat.jpg' }}">
 
   <!-- Twitter -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if title %}{{ title }} | Hats by MCK Millinery{% else %}Hats by MCK Millinery | New York | New Orleans{% endif %}">
+  <meta name="twitter:title" content="{% if title %}{{ title }} | Hats by MCK Millinery{% else %}Hats by MCK Millinery | New York and New Orleans{% endif %}">
   <meta name="twitter:description" content="{{ metaDescription or metadata.description }}">
   <meta name="twitter:image" content="{{ metadata.url }}{{ image or '/static/img/hats/mck-millinery-the-coffin-hat.jpg' }}">
 
