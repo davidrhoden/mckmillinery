@@ -1,5 +1,5 @@
 ---
-title: The Coffin Hat || MCK Millinery
+title: The Coffin Hat
 metaDescription: A stunning hat featuring mother-of-pearl adornments.
 summary: A stunning hat featuring mother-of-pearl adornments.
 date: 2026-06-05

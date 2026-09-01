@@ -1,6 +1,6 @@
 ---
 layout: layouts/home.njk
-title: MCK Millinery
+title: 
 date: 2026-06-05T00:00:00
 permalink: /index.html
 excerpt: 
