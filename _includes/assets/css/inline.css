@@ -417,14 +417,24 @@ html[data-current="ball"] footer {
 	justify-content: center;
 }
 
+.ball-vignette {
+	position: absolute;
+	inset: 0;
+	z-index: 1;
+	background: radial-gradient(ellipse at center, rgba(28, 21, 37, 0.85) 20%, transparent 75%);
+}
+
 .ball-hero-content {
+	position: relative;
+	z-index: 2;
 	text-align: center;
-	padding: 2em;
+	padding: 3em 4em;
+	margin-top: 3em;
 	font-family: var(--font-display);
 	font-style: italic;
 	font-size: 1.5rem;
 	text-shadow: 0 2px 12px rgba(0,0,0,0.7);
-	max-width: 600px;
+	max-width: 700px;
 }
 
 .hero {
@@ -501,5 +511,14 @@ html[data-current="ball"] footer {
 @media screen and (max-width: 767px) {
 	.logo-holder {
 		width: 100px;
+	}
+
+	.ball-hero-content {
+		max-width: 100%;
+		padding: 2em 1.5em;
+	}
+
+	.ball-hero-content p {
+		line-height: 1.2;
 	}
 }
