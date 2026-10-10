@@ -12,7 +12,7 @@ permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
 eleventyComputed:
   title: "Tagged “{{ tag }}”"
-  metaDescription: "All posts from the Blog tagged with “{{ tag }}”"
+  metaDescription: "All posts from the Blog tagged with “{{ tag | slugify }}”"
 ---
 
 <h1>Tagged “{{ tag }}”</h1>

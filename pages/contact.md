@@ -8,8 +8,6 @@ image: /static/img/hats/mck-millinery-coffin-hat-closeup.jpg
 eleventyNavigation:
   key: Contact MCK
   order: 2
-tags:
-  - 
 
 ---
 

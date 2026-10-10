@@ -384,6 +384,49 @@ html[data-current="home"] footer {
 	display: none;
 }
 
+/* Ball page */
+html[data-current="ball"] body {
+	display: block;
+}
+
+html[data-current="ball"] header {
+	position: absolute;
+	width: 100%;
+	background: transparent;
+	border-image: none;
+	border-bottom: none;
+	z-index: 10;
+}
+
+html[data-current="ball"] main {
+	max-width: none;
+	padding: 0;
+}
+
+html[data-current="ball"] footer {
+	display: none;
+}
+
+.ball-hero {
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+	position: relative;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.ball-hero-content {
+	text-align: center;
+	padding: 2em;
+	font-family: var(--font-display);
+	font-style: italic;
+	font-size: 1.5rem;
+	text-shadow: 0 2px 12px rgba(0,0,0,0.7);
+	max-width: 600px;
+}
+
 .hero {
 	position: relative;
 	height: 100vh;
