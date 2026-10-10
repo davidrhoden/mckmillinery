@@ -12,6 +12,6 @@ image: /static/img/hats/mck-millinery-the-coffin-hat.jpg
 
 _&mdash;Anne Rice_
 
-Contact me to give shape to your obsessions.
+[Contact me](/contact) to give shape to your obsessions.
 
 The latest collection: [Saturnine Glamour](/hats/).
